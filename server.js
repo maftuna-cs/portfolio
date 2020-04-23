@@ -4,13 +4,25 @@ const exphbs = require('express-handlebars');
 
 const app = express(); //express app object
 
-app.use(express.static('public'))
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(express.static('public'));
+// app.use(bodyParser.urlencoded({ extended: false }))
 
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Web Server Started`);
+app.get("/", (req,res) => {
+    
+  res.render("home", {
+      title:"Home",
+      headingInfo: "Home page",
+      dynamicContent: "something",
+      // info: infoModel.getallInfo(),
+      // prgList: prgListModel.getallPrgList()
+
+  });
+})
+
+const PORT = 3001;
+app.listen(PORT,() => {
+    console.log(`Web server is connected.`);
 });

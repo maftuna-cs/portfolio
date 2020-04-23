@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="359" height="355" viewBox="0 0 359 355">
+  <g id="icon-3" transform="translate(2310.643 -852)">
+    <path id="Path_77" data-name="Path 77" d="M-2084.9,940.547l-62.893,115.67,25.556,65.787h74.692l24.861-65.787Z" transform="translate(-45.562 -24.72)" fill="none" stroke="#e4a1fc" stroke-linecap="round" stroke-width="12"/>
+    <g id="Rectangle_24" data-name="Rectangle 24" transform="translate(-2172.643 1097)" fill="#6666fd" stroke="#e4a1fc" stroke-width="12">
+      <rect width="85" height="42" rx="15" stroke="none"/>
+      <rect x="6" y="6" width="73" height="30" rx="9" fill="none"/>
+    </g>
+    <line id="Line_49" data-name="Line 49" y2="36.041" transform="translate(-2145.57 1097.442)" fill="none" stroke="#e4a1fc" stroke-width="12"/>
+    <line id="Line_50" data-name="Line 50" y2="100.195" transform="translate(-2131.153 924.443)" fill="none" stroke="#e4a1fc" stroke-width="12"/>
+    <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(-2152.643 1021)" fill="#6666fd" stroke="#e4a1fc" stroke-width="12">
+      <ellipse cx="22" cy="22.5" rx="22" ry="22.5" stroke="none"/>
+      <ellipse cx="22" cy="22.5" rx="16" ry="16.5" fill="none"/>
+    </g>
+    <line id="Line_51" data-name="Line 51" x2="225.619" transform="translate(-2243.603 872.544)" fill="none" stroke="#6666fd" stroke-width="12"/>
+    <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="14.5" cy="15" rx="14.5" ry="15" transform="translate(-2268.643 859)" fill="#ff9c72"/>
+    <circle id="Ellipse_25" data-name="Ellipse 25" cx="15" cy="15" r="15" transform="translate(-2022.643 859)" fill="#ff9c72"/>
+    <g id="Ellipse_26" data-name="Ellipse 26" transform="translate(-2290.643 868)" fill="none" stroke="#6666fd" stroke-width="12">
+      <ellipse cx="160" cy="160.5" rx="160" ry="160.5" stroke="none"/>
+      <ellipse cx="160" cy="160.5" rx="154" ry="154.5" fill="none"/>
+    </g>
+    <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(-2310.643 1006)" fill="#ff9c72" stroke="#6666fd" stroke-width="12">
+      <rect width="49" height="46" rx="14" stroke="none"/>
+      <rect x="6" y="6" width="37" height="34" rx="8" fill="none"/>
+    </g>
+    <g id="Rectangle_26" data-name="Rectangle 26" transform="translate(-1999.643 1006)" fill="#ff9c72" stroke="#6666fd" stroke-width="12">
+      <rect width="48" height="46" rx="14" stroke="none"/>
+      <rect x="6" y="6" width="36" height="34" rx="8" fill="none"/>
+    </g>
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(-2154.643 1161)" fill="#ff9c72" stroke="#6666fd" stroke-width="12">
+      <rect width="49" height="46" rx="14" stroke="none"/>
+      <rect x="6" y="6" width="37" height="34" rx="8" fill="none"/>
+    </g>
+    <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(-2154.643 852)" fill="#ff9c72" stroke="#6666fd" stroke-width="12">
+      <rect width="49" height="45" rx="14" stroke="none"/>
+      <rect x="6" y="6" width="37" height="33" rx="8" fill="none"/>
+    </g>
+  </g>
+</svg>
