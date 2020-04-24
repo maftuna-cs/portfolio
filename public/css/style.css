@@ -27,7 +27,7 @@ h4 {
   padding: 30px;
   padding-top: 1em;
   color: #B1C3FF;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
   background: rgba(255,255,255,0);
   
 }
@@ -274,6 +274,11 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+    
+  }
+
+  .item-img {
+    -webkit-animation: scale 3s ease-in-out infinite alternate;
   }
 
   .style {
@@ -283,12 +288,45 @@ h4 {
     width: 50px;
     margin-bottom: 1em;
   }
+
+@-webkit-keyframes scale {
+    0% {
+        
+    }
+    
+    100% {
+        -webkit-transform: scale(.9);
+    }
+  }
  
   /* ************** A B O U T *********** */
 
-  /* .about-body {
-      background: #f6cebe;
-  } */
+  .about-wrap {
+      position: relative;
+      margin-bottom: 1em;
+  }
+
+  .abt-titl {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .abt-titl h1 {
+    font-size: 2.5em;
+    color: #534767;
+    margin-bottom: .3em;
+  }
+
+  .abt-titl a {
+    color: #7f64aa;
+    text-decoration: none;
+  }
 
 
   .who-jp {
@@ -433,9 +471,36 @@ h4 {
  }
 
  .footer {
-   background: linear-gradient(to right, #4776E6, #8E54E9);
-   margin-top: 2em;
+   background: #B1C3FF;
+   margin-top: 3em;
+   height: 50vh;
  }
+
+ .contact {
+     font-size: 3em;
+     padding-top: 1em;
+     text-align: center;
+     font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
+     color: #534767;
+ }
+
+ .email {
+     font-size: 2em;
+     text-align: center;
+     padding: .5em;
+     font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
+     color: #534767;
+ }
+ .social {
+    display: flex;
+    justify-content: center;
+     font-size: 3em;
+    
+}
+.social a {
+    padding: 1em;
+}
+ 
   
 
 

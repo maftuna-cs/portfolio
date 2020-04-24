@@ -22,6 +22,61 @@ app.get("/", (req,res) => {
   });
 })
 
+
+
+app.get("/about", (req,res) => {
+    
+  res.render("about", {
+      title:"about",
+      headingInfo: "about page",
+      dynamicContent: "something",
+      // programs: programModel.getallPrograms()
+  });
+})
+
+
+
+app.get("/works", (req,res) => {
+    
+  res.render("works", {
+      title:"works",
+      headingInfo: "works page",
+      dynamicContent: "something",
+      // programs: programModel.getallPrograms()
+  });
+})
+
+
+
+// ***************************************************
+
+app.get("/goodfood", (req,res) => {
+    
+  res.render("goodfood", {
+      title:"goodfood ui",
+      headingInfo: "goodfood ui page",
+  });
+})
+
+app.get("/roof", (req,res) => {
+    
+  res.render("roof", {
+      title:"roof website",
+      headingInfo: "roof website and ui",
+  });
+})
+
+app.get("/peach-branding", (req,res) => {
+    
+  res.render("peach-branding", {
+      title:"Peach Juice Branding",
+      headingInfo: "Peach Juice branding",
+  });
+})
+
+
+
+
 const PORT = 3001;
 app.listen(PORT,() => {
     console.log(`Web server is connected.`);
