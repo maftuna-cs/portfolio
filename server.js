@@ -4,6 +4,8 @@ const exphbs = require('express-handlebars');
 
 const app = express(); //express app object
 
+const programModel = require("./models/works");
+
 app.use(express.static('public'));
 // app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -16,8 +18,7 @@ app.get("/", (req,res) => {
       title:"Home",
       headingInfo: "Home page",
       dynamicContent: "something",
-      // info: infoModel.getallInfo(),
-      // prgList: prgListModel.getallPrgList()
+     
 
   });
 })
@@ -30,7 +31,7 @@ app.get("/about", (req,res) => {
       title:"about",
       headingInfo: "about page",
       dynamicContent: "something",
-      // programs: programModel.getallPrograms()
+     
   });
 })
 
@@ -43,6 +44,7 @@ app.get("/works", (req,res) => {
       headingInfo: "works page",
       dynamicContent: "something",
       // programs: programModel.getallPrograms()
+      
   });
 })
 

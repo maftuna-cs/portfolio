@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="888" height="888" viewBox="0 0 888 888">
+  <defs>
+    <filter id="UI.UX" x="78" y="283" width="732" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-727 -2740)">
+    <rect id="Rectangle_31" data-name="Rectangle 31" width="888" height="888" rx="444" transform="translate(727 2740)" fill="#b1c3ff"/>
+    <g transform="matrix(1, 0, 0, 1, 727, 2740)" filter="url(#UI.UX)">
+      <text id="UI.UX-2" data-name="UI.UX" transform="translate(444 536)" fill="#685881" font-size="250" font-family="FredokaOne-Regular, Fredoka One"><tspan x="-335.875" y="0">UI.UX</tspan></text>
+    </g>
+  </g>
+</svg>

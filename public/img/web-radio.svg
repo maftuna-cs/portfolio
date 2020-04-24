@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="888" height="888" viewBox="0 0 888 888">
+  <defs>
+    <filter id="WEB" x="128" y="283" width="632" height="362" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(287 -2740)">
+    <rect id="Rectangle_30" data-name="Rectangle 30" width="888" height="888" rx="444" transform="translate(-287 2740)" fill="#b1c3ff"/>
+    <g transform="matrix(1, 0, 0, 1, -287, 2740)" filter="url(#WEB)">
+      <text id="WEB-2" data-name="WEB" transform="translate(444 536)" fill="#685881" font-size="250" font-family="FredokaOne-Regular, Fredoka One"><tspan x="-285.375" y="0">WEB</tspan></text>
+    </g>
+  </g>
+</svg>
