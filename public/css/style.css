@@ -388,7 +388,7 @@ h4 {
 
   .about-num {
     font-size: 2.5rem;
-    color: #8E54E9;
+    color: #6666FD;
     position: relative;
     padding-left: 4rem;
     padding-right: 3.2rem;
@@ -417,14 +417,14 @@ h4 {
   .abt-bg {
   }
 
- .bar {
+ .bar, .bar-js, .bar-node, .bar-react {
   width: 80%;
   height: .8rem;
   background: #fff;
   position: relative;
   border-radius: 10px;
   -webkit-box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
-  box-shadow: 0 5px 15px 0 rgba(7, 33, 66, 0.15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   /* left: 8%; */
  }
 
@@ -433,7 +433,7 @@ h4 {
   animation: ratio90 1.5s forwards;
  }
 
- .bar.p90::after {
+ .bar.p90::after, .bar-js.p90::after, .bar-node.p90::after, .bar-react.p90::after {
   background-image: -webkit-gradient(linear, left top, right top, from(#072142), color-stop(42%, #8c2b7a), to(#ff4d5a));
   background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
   background-image: -o-linear-gradient(left, #072142, #8c2b7a 42%, #ff4d5a);
@@ -441,15 +441,25 @@ h4 {
   background: linear-gradient(to right, #4776E6, #8E54E9);
  }
 
- .bar::after{
+ .bar::after, .bar-js::after, .bar-node::after, .bar-react::after {
   content: "";
   position: absolute;
   left: 0%;
   top: 0;
   height: 100%;
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
  }
+ .bar-js::after {
+    width: 70%;
+ }
+ .bar-node::after {
+     width: 60%;
+ }
+ .bar-react::after {
+     width: 70%;
+ }
+   
 
  
 
@@ -472,8 +482,8 @@ h4 {
 
  .footer {
    background: #B1C3FF;
-   margin-top: 3em;
-   height: 50vh;
+   margin-top: 4em;
+   
  }
 
  .contact {
@@ -487,7 +497,7 @@ h4 {
  .email {
      font-size: 2em;
      text-align: center;
-     padding: .5em;
+     padding-top: .5em;
      font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
      color: #534767;
  }
@@ -495,10 +505,29 @@ h4 {
     display: flex;
     justify-content: center;
      font-size: 3em;
+     margin-top: .5em;
     
 }
 .social a {
+    padding: .5em;
+    color: #534767;
+   
+}
+
+.copyright, .copyright a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
     padding: 1em;
+}
+
+.copyright i {
+    color: #FA7599
+}
+
+.footer-end {
+    padding-bottom: 2em;
 }
  
   
@@ -873,6 +902,31 @@ h4 {
        grid-template-columns: 1fr;
        grid-gap: 1em;
      }
+    
+
+
+     .abt-titl {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "kepler-std-display", KeplerStd-LightDisp, Times, serif;
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+      }
+    
+      .abt-titl h1 {
+        font-size: 1.1em;
+        color: #534767;
+        margin-bottom: .3em;
+      }
+    
+      .abt-titl a {
+        color: #7f64aa;
+        text-decoration: none;
+        font-size: .7em;
+      }
     
 
 }
