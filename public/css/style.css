@@ -26,28 +26,31 @@ h4 {
   background: #575d6d;
   padding: 30px;
   padding-top: 1em;
-  color: #92A2D0;
+  color: #B1C3FF;
   margin-bottom: 3em;
   background: rgba(255,255,255,0);
+  
 }
 
 .logo{
-  line-height: 80px;
+  /* line-height: 80px; */
   float: left;
   text-transform: uppercase;
-  width: 120px;
+  width: 50px;
   margin-left: 2em;
+  margin-right: 2em;
+  margin-top: -1em;
 }
 
 .menu{
-  float: right;
+  float: left;
   line-height: 80px;
 }
 .menu a{
-  color: #92A2D0;
+  color: #B1C3FF;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 20px;
   transition: 0.4s;
 }
 .show-menu-btn,.hide-menu-btn{
@@ -65,7 +68,7 @@ h4 {
 .menu a:hover,
 .show-menu-btn:hover,
 .hide-menu-btn:hover{
-  color: #3498db;
+  color: #DAA5F0;
 }
 
 #chk{
@@ -84,13 +87,13 @@ h4 {
 .bg {
   width: 60%;
   position: absolute;
-  top: 15%;
+  top: 12%;
   right: 0px;
 }
 
 .content {
     position: absolute;
-    top: 35%;
+    top: 40%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     height: 160px;
@@ -111,7 +114,7 @@ h4 {
     line-height: 70px;
     font-family: 'Abril Fatface', cursive;
     margin-bottom: .5em;
-    color: #8E54E9;
+    color: #B1C3FF;
 }
 
 .content-h2 {
@@ -149,7 +152,7 @@ h4 {
   .content-container:after, .content-container:before {
     position: absolute;
     top: 10%;
-    color: #16a085;
+    color: #DAA5F0;
     font-size: 42px;
     line-height: 40px;
     -webkit-animation-name: opacity;
@@ -243,7 +246,25 @@ h4 {
     margin-top: 50rem;
   }
 
+  
   /* ************** SH O W C A S E ************ */
+
+  .showcase-title{
+    font-size: 4em;
+    line-height: 80px;
+    margin-top: 1em;
+    text-indent: -3px;
+    letter-spacing: 3px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Abril Fatface', cursive; 
+    background-image: linear-gradient(to bottom, #f15b74, #ff6021);
+    background-image: linear-gradient(to bottom, #4776E6, #8E54E9);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+
 
   .item-img {
     
@@ -253,6 +274,14 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
+  }
+
+  .style {
+    background-color: #6666FD;
+    height: 4px;
+    margin: 16px auto;
+    width: 50px;
+    margin-bottom: 1em;
   }
  
   /* ************** A B O U T *********** */
@@ -550,6 +579,16 @@ h4 {
       padding: 2em;
       text-align: center;
     }
+
+    .logo{
+        /* line-height: 80px; */
+        float: left;
+        text-transform: uppercase;
+        width: 50px;
+        margin-left: 0;
+        margin-right: 2em;
+        margin-top: -1em;
+      }
     
     .show-menu-btn,.hide-menu-btn{
       display: block;
@@ -557,7 +596,7 @@ h4 {
     .menu{
       position: fixed;
       width: 100%;
-      height: 50vh;
+      height: 100vh;
       background: #333;
       right: -100%;
       top: 0;
@@ -565,6 +604,7 @@ h4 {
       padding: 80px 0;
       line-height: normal;
       transition: 0.7s;
+      z-index: 999;
     }
     .menu a{
       display: block;
@@ -620,7 +660,7 @@ h4 {
 
     .content {
         position: absolute;
-        top: 25%;
+        top: 35%;
         -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
         height: 160px;
@@ -641,12 +681,11 @@ h4 {
         line-height: 40px;
         font-family: 'Abril Fatface', cursive;
         margin-bottom: .5em;
-        color: #8E54E9;
     }
     
     .content-h2 {
         font-size: 1.8em;
-        line-height: 60px;
+        line-height: 50px;
         margin-top: .2em;
         text-indent: -3px;
         letter-spacing: 3px;
@@ -711,7 +750,7 @@ h4 {
       .bg {
         width: 60%;
         position: absolute;
-        top: 15%;
+        top: 20%;
         right: 0px;
       }
 
@@ -760,16 +799,23 @@ h4 {
       }
     
       .container {
-        margin-top: 23rem;
+        margin-top: 25rem;
       }
 
 
       .item-ul {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1em;
-      }
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 1em;
+     }
     
 
 }
+/* 
+@media screen and (max-width:1280px) {
+    .container {
+        margin-top: 45rem;
+      }
+
+} */
 
