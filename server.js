@@ -4,7 +4,7 @@ const exphbs = require('express-handlebars');
 
 const app = express(); //express app object
 
-const programModel = require("./models/works");
+// const programModel = require("./models/works");
 
 app.use(express.static('public'));
 // app.use(bodyParser.urlencoded({ extended: false }))
@@ -78,8 +78,14 @@ app.get("/peach-branding", (req,res) => {
 
 
 
+const PORT = process.env.PORT;
+app.listen(PORT , ()=>{
 
-const PORT = 3001;
-app.listen(PORT,() => {
-    console.log(`Web server is connected.`);
-});
+    console.log(`Web Server is up and running`);
+})
+
+
+// const PORT = 3001;
+// app.listen(PORT,() => {
+//     console.log(`Web server is connected.`);
+// });
