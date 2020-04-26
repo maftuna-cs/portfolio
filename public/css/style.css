@@ -907,6 +907,11 @@ text-align: center;
         padding-left:.2em;
       }
 
+      .about-wrap {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
      
 
     
