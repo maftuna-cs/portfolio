@@ -907,7 +907,7 @@ text-align: center;
         padding-left:.2em;
       }
 
-      .about-wrap {
+      .skill-wrap {
         display: grid;
         grid-template-columns: 1fr;
       }
