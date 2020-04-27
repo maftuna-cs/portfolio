@@ -76,7 +76,7 @@ const getItemsAsHtmlString = program => {
     <a href="" class="works-link"></a>
        <a href="${program.link}"><img src=${program.image} class="works-img"></a>
         <h1 class="works-title">${program.title}</h1>
-        <a href=${program.link} class="works-link">See the Page</a>
+        <a href=${program.link} class="works-link">See More</a>
        
         
         <p class="description">${program.description}</p>
