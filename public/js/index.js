@@ -27,9 +27,9 @@ const program = [
     {
         id:103,
         image: `/img/framework-p.png`,
-        title: `Web Framework Project`,
-        description: `Humber College Web Framework Group Project.`,
-        link: ``,
+        title: `Custom SPA Framework Project`,
+        description: `Humber College Media Pros Website Full-Stack Development.`,
+        link: `https://humbercollege-project.herokuapp.com/`,
         skills: [`Modelling`, `Texturing`, `Visual effects`, `Compositing`, `Digital cinematography`],
         type: `web`
     },
@@ -48,7 +48,7 @@ const program = [
         title: `Identiy for UK TRADE`,
         description: ``,
         link: ``,
-        type: `Identity`
+        type: `identity`
     }
 ]
 
